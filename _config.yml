@@ -16,7 +16,6 @@
 title: MM
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-I am a bioinformatics researcher specializing in single-cell RNA sequencing, microglia biology, and computational analysis for neurodegenerative diseases
 twitter_username: username
 github_username: username
 minimal_mistakes_skin: default
