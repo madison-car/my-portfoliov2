@@ -54,9 +54,9 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
+  name   : "Madison Carpenter"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "Bioinformatician exploring Alzheimer's, ALS, and MS 🧠🔬, using multi-omics and modeling to uncover disease mechanisms."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
