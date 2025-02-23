@@ -59,7 +59,7 @@ plugins:
 
 author:
   name   : "Madison Carpenter"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/Me.png"
   bio    : "Bioinformatician exploring Alzheimer's, ALS, and MS 🧠🔬, using multi-omics and modeling to uncover disease mechanisms."
   links:
     - label: "Website"
