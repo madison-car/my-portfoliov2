@@ -34,8 +34,10 @@ include:
 
 # Customizations
 logo: "/assets/images/Puppy.png"
+excerpt: "This post should display a **header with a solid background color**, if the theme supports it."
 header:
-  image: /assets/images/Github Header.png
+  overlay_color: "#333"
+
 
 
 # Exclude from processing.
