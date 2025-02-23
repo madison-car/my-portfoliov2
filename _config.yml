@@ -34,6 +34,8 @@ include:
 
 # Customizations
 logo: "/assets/images/Puppy.png"
+header:
+  image: /assets/images/Github Header.png
 
 
 # Exclude from processing.
