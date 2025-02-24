@@ -32,8 +32,12 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 include:
   - _pages
 
-# Customizations
+# Site Masthead logo
 logo: "/assets/images/Puppy.png"
+masthead_title: "My Custom Title"
+
+
+# Header
 excerpt: "This post should display a **header with a solid background color**, if the theme supports it."
 header:
   overlay_color: "#333"
@@ -94,7 +98,7 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
+      layout: splash
       author_profile: true
       read_time: true
       comments: true
@@ -105,7 +109,7 @@ defaults:
       path: "_pages"
       type: pages
     values:
-      layout: single
+      layout: splash
       author_profile: true
 
 category_archive:
