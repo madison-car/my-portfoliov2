@@ -39,15 +39,10 @@ include:
 logo: "/assets/images/Puppy.png"
 masthead_title: "My Custom Title"
 
-
 # Header
-tagline: "This is a custom tagline content which overrides the default page excerpt."
+excerpt: "This post should display a **header with a solid background color**, if the theme supports it."
 header:
-  overlay_image: "/assets/images/Puppy.png"
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-
-
-
+  overlay_color: "#333"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -111,7 +106,7 @@ defaults:
       related: true
  defaults:
   - scope:
-      path: "_pages/index.md"
+      path: "_pages/"
       type: "pages"
     values:
       layout: "splash"
