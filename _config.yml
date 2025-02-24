@@ -9,13 +9,10 @@
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
 title: My Portfolio
 email: madison.m.carpenter1@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
+description: >-
+  Bioinformatician exploring Alzheimer's, ALS, and MS 🧠🔬, using multi-omics and modeling to uncover disease mechanisms.
 github_username: madison-car
 homepage_layout: splash
 minimal_mistakes_skin: mint
@@ -29,7 +26,7 @@ remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
 paginate: 1 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/New_York
 
 include:
   - _pages
@@ -43,19 +40,7 @@ excerpt: "This post should display a **header with a solid background color**, i
 header:
   overlay_color: "#333"
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-
-# Plugins (previously gems:)
+# Plugins
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
@@ -64,35 +49,36 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
+# Author information
 author:
-  name   : "Madison Carpenter"
-  avatar : "/assets/images/Me.png"
-  bio    : "Bioinformatician exploring Alzheimer's, ALS, and MS 🧠🔬, using multi-omics and modeling to uncover disease mechanisms."
+  name: "Madison Carpenter"
+  avatar: "/assets/images/Me.png"
+  bio: "Bioinformatician exploring Alzheimer's, ALS, and MS 🧠🔬, using multi-omics and modeling to uncover disease mechanisms."
   links:
-    - label: "Youtube"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://youtube.com/@madisoncarpenter"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/madison-car"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://instagram.com/madisoncarpenter"
 
 footer:
   links:
-    - label: "Youtube"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://youtube.com/@madisoncarpenter"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/madison-car"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://instagram.com/madisoncarpenter"
 
+# Defaults
 defaults:
-  # _posts
   - scope:
       path: ""
       type: posts
@@ -103,18 +89,19 @@ defaults:
       comments: true
       share: true
       related: true
- defaults:
   - scope:
       path: ""
-      type: "pages"
+      type: pages
     values:
       layout: "splash"
       permalink: /
       author_profile: true
 
+# Archives
 category_archive:
   type: liquid
   path: /categories/
 tag_archive:
   type: liquid
   path: /tags/
+
