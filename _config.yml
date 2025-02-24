@@ -24,6 +24,7 @@ search: true
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
+
 # Outputting
 permalink: /:categories/:title/
 paginate: 1 # amount of posts to show
@@ -109,7 +110,7 @@ defaults:
       related: true
  defaults:
   - scope:
-      path: "_pages/home.md"
+      path: "_pages/index.md"
       type: "pages"
     values:
       layout: "splash"
