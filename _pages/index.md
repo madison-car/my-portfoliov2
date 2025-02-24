@@ -45,7 +45,7 @@ feature_row2:
     btn_label: "Browse Data"
     btn_class: "btn--primary"
 feature_row3:
-  - image_path:/assets/images/Puppy.png
+  - image_path: /assets/images/Puppy.png
     alt: "Feature 5"
     title: "Tools & Scripts"
     excerpt: "Find useful bioinformatics scripts and pipelines."
