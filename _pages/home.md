@@ -1,7 +1,7 @@
 ---
 title: "Welcome to My Website"
 layout: splash
-permalink: /splash/
+permalink: /
 date: 2025-02-24T00:00:00-05:00
 header:
   overlay_color: "#000"
