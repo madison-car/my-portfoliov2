@@ -38,9 +38,11 @@ masthead_title: "My Custom Title"
 
 
 # Header
-excerpt: "This post should display a **header with a solid background color**, if the theme supports it."
+tagline: "This is a custom tagline content which overrides the default page excerpt."
 header:
-  overlay_color: "#333"
+  overlay_image: /assets/images/Puppy.png
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+
 
 
 
