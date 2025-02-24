@@ -107,12 +107,13 @@ defaults:
       comments: true
       share: true
       related: true
-  # _pages
+ defaults:
   - scope:
-      path: "_pages"
-      type: pages
+      path: "_pages/home.md"
+      type: "pages"
     values:
       layout: "splash"
+      permalink: /
       author_profile: true
 
 category_archive:
